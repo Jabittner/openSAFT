@@ -23,7 +23,7 @@ Files:
 
 # Disclaimer 
 This code was written based upon existing literature, and some creative problem solving to speed up the process. 
-The enclosed code is for research purposes and education purposes. The author makes not claim to accuracy 
+The enclosed code is for research and education purposes. The author does not claim any accuracy 
 of the methods used. If you find an error, or poor assumption please fix it and send in your code. 
 
 # References
