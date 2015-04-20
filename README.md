@@ -4,6 +4,13 @@ This code was created initially for ultrasonic concrete inspection. The purpose
 behind releasing the code is to promote discussion and open exploration of the 
 SAFT method for concrete non-destructive inspection. 
 
+Files: 
+main.m - General Starter File To Inspect Example Dataset (JAB4.lbv)
+qgui.m - Example GUI built using MATLAB to Test Different Color Gains
+a_filereader.m - Simple binary file reader configured to read in 66 time domain signals 2048 points in length. 
+a_plotBscan.m - SAFT Algorithm to assemble a B-Scan estimate and plot as a image
+
+
 
 # Submissions
 -This is an open project, the authors welcome suggestions, new code, and posting of problem datasets. 
