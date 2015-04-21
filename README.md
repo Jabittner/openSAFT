@@ -3,7 +3,7 @@ An open implementation of the Synthetic Aperture Focusing Technique (SAFT).
 This code was created initially for ultrasonic concrete inspection. The purpose
 behind releasing the code is to promote discussion and open exploration of the 
 SAFT method for concrete non-destructive inspection. 
-
+ 
 Files: 
 
    main.m - General Starter File To Inspect Example Dataset (JAB4.lbv)
