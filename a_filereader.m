@@ -12,7 +12,7 @@ function [Z] = a_filereader(filename)
     % % % 
     % % % %% to read the config file
     % % % if true
-    % % %     fin = fopen('HJ1.cfg', 'r');
+    % % %     fin = fopen(filename, 'r');
     % % %     config = fscanf(fin, '%i:%i');
     % % %     config = transpose(reshape(config, 2, length(config)/2));
     % % % end
@@ -22,7 +22,7 @@ function [Z] = a_filereader(filename)
     % % % %     % row=1024;  col=1024;
     % % % %     row = 216;
     % % % %     col = 432;
-    % % % %     fin=fopen('HJ1.bin','r');
+    % % % %     fin=fopen(filename,'r');
     % % % %     I=fread(fin,row*col,'uint32=>uint32', 'l'); 
     % % % %     Z=reshape(I,row,col);
     % % % %     Z=Z';
