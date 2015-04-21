@@ -18,7 +18,8 @@ Files:
 
 # Submissions
 -This is an open project, the authors welcome suggestions, new code, and posting of problem datasets. 
--Q.C. is missing from this processing method completely. Please feel free to suggest Q.C. Algorithms. 
+
+-Q.C. is missing from this processing method completely. Please feel free to submit code for Q.C. Algorithms. 
 
 
 # Disclaimer 
