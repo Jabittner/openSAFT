@@ -5,28 +5,33 @@ behind releasing the code is to promote discussion and open exploration of the
 SAFT method for concrete non-destructive inspection. 
 
 Files: 
-main.m - General Starter File To Inspect Example Dataset (JAB4.lbv)
-qgui.m - Example GUI built using MATLAB to Test Different Color Gains
-a_filereader.m - Simple binary file reader configured to read in 66 time domain signals 2048 points in length. 
-a_plotBscan.m - SAFT Algorithm to assemble a B-Scan estimate and plot as a image
+
+   main.m - General Starter File To Inspect Example Dataset (JAB4.lbv)
+
+   qgui.m - Example GUI built using MATLAB to Test Different Color Gains
+
+   a_filereader.m - Simple binary file reader configured to read in 66 time domain signals 2048 points in length. 
+
+   a_plotBscan.m - SAFT Algorithm to assemble a B-Scan estimate and plot as a image
 
 
 
 # Submissions
 -This is an open project, the authors welcome suggestions, new code, and posting of problem datasets. 
--Q.C. is missing from this processing method completely. Please feel free to suggest Q.C. Algorithms. 
+
+-Q.C. is missing from this processing method completely. Please feel free to submit code for Q.C. Algorithms. 
 
 
 # Disclaimer 
 This code was written based upon existing literature, and some creative problem solving to speed up the process. 
-The enclosed code is for research purposes and education purposes. The author makes not claim to accuracy 
+The enclosed code is for research and education purposes. The author does not claim any accuracy 
 of the methods used. If you find an error, or poor assumption please fix it and send in your code. 
 
 # References
 
-Clayton, D., Smith, C., Ferraro, C., Nelson, J., Khazanovich, L., Hoegh, K., … Ham, S. (2013). Evaluation of Ultrasonic Techniques on Concrete Structures. Report: ORNL/TM-2013/430. Oak Ridge, TN: Oak Ridge National Laboratory. 
+Clayton, D., Smith, C., Ferraro, C., Nelson, J., Khazanovich, L., Hoegh, K., â€¦ Ham, S. (2013). Evaluation of Ultrasonic Techniques on Concrete Structures. Report: ORNL/TM-2013/430. Oak Ridge, TN: Oak Ridge National Laboratory. 
 
-Jensen, J. A., Nikolov, S. I., Gammelmark, K. L., & Pedersen, M. H. (2006). Synthetic aperture ultrasound imaging. Ultrasonics, 44 Suppl 1, e5–15. doi:10.1016/j.ultras.2006.07.017
+Jensen, J. A., Nikolov, S. I., Gammelmark, K. L., & Pedersen, M. H. (2006). Synthetic aperture ultrasound imaging. Ultrasonics, 44 Suppl 1, e5â€“15. doi:10.1016/j.ultras.2006.07.017
 
 Langenberg, K.-J., Marklein, R., & Mayer, K. (2012). Ultrasonic Nondestructive Testing of Materials: Theoretical Foundations. Boca Raton, FL: CRC Press.
 
