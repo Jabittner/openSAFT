@@ -25,8 +25,10 @@ function [ curscan ] = a_plotBscan(Z, curscan )
 
 
 width=500; % must be greater than 301
+jend = 66;
+b1 = zeros(width,width,jend);
 
-for j=1:66
+for j=1:jend
     % a podization factor
     x_r_loc=(width/2)-150+curscan.indx_to_rec(j)*30;
     x_t_loc=(width/2)-150+curscan.indx_to_trans(j)*30;
@@ -34,14 +36,14 @@ for j=1:66
     x_r = repmat(x_r_loc-[1:width],width,1); % horz dist from rec
     x_t = repmat(x_t_loc-[1:width],width,1); % horz dist from trans
     apodr = (z_k)./(sqrt(1*x_r.^2+(z_k).^2)); % directly from appendix ...
-                                        %(reasonable propigation assumption)
+                                        %(reasonable propagation assumption)
     apodt = (z_k)./(sqrt(1*x_t.^2+(z_k).^2));
     apod=apodr.*apodt;
     % takes in to account send and rec
     dist = sqrt(z_k.^2+x_r.^2)+sqrt(z_k.^2+x_t.^2); %dist from pt to t/r
     xyindx = round((dist*10^-3)/(curscan.Est_Vel_Shear(1)*1e-6)); % dist to time usec
     S = reshape(Z(xyindx(:),j), width, width); % time to approx. signal 
-    b1(:,:,j) = S.*apod; % x-y fit to propigation estimate apod
+    b1(:,:,j) = S.*apod; % x-y fit to propagation estimate apod
 end
 bsum = sum(b1,3); % sum all by 3rd axis 
 Amplitude_DepthShift = round(0.5*(1/50000)*curscan.Est_Vel_Shear(1)*1000);

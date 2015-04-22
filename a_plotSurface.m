@@ -7,9 +7,9 @@ title('Shear Arrival vs Distance Traveled')
 figure;    
 [qpoly polystat] = polyfit(curscan.surf_arrival_index.*10^-6, curscan.indx_to_dist, 1);
 % Plot the residuals of the surface wave velocity
-qpolyval= polyval(qpoly,curscan.surf_arrival_index.*10^-6)
+qpolyval= polyval(qpoly,curscan.surf_arrival_index.*10^-6);
 % not sure if this should be percent or raw residual
-qpolyrespercent=((qpolyval-curscan.indx_to_dist))%./curscan.indx_to_dist)*100
+qpolyrespercent=((qpolyval-curscan.indx_to_dist));%./curscan.indx_to_dist)*100
 
     for i=1:length(curscan.indx_to_rec)
         curscan.spaceresult(curscan.indx_to_rec(i), ...
