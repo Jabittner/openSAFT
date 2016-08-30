@@ -6,6 +6,8 @@ SAFT method for concrete non-destructive inspection.
  
 Files: 
 
+   [OpenSAFT_QuickGUIInstaller.exe](https://github.com/Jabittner/openSAFT/blob/master/OpenSAFT_QuickGUIInstaller.exe) - Quick Graphical Program to Demonstrate Reconstruction Options
+
    main.m - General Starter File To Inspect Example Dataset (JAB4.lbv)
 
    qgui.m - Example GUI built using MATLAB to Test Different Color Gains
