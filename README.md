@@ -3,6 +3,9 @@ An open implementation of the Synthetic Aperture Focusing Technique (SAFT).
 This code was created initially for ultrasonic concrete inspection. The purpose
 behind releasing the code is to promote discussion and open exploration of the 
 SAFT method for concrete non-destructive inspection. 
+
+If you use/build off of this code for publication please cite the following article: 
+Bittner, James A, Agustin Spalvier, and John S Popovics. 2018. “Internal Imaging of Concrete Elements.” Concrete International, no. April: 57–63.
  
 Files: 
 
@@ -28,7 +31,7 @@ This code was written based upon existing literature, and some creative problem 
 The enclosed code is for research and education purposes. The author does not claim any accuracy 
 of the methods used. If you find an error, or poor assumption please fix it and send in your code. 
 
-# References
+# Additional Helpful References
 
 Clayton, D., Smith, C., Ferraro, C., Nelson, J., Khazanovich, L., Hoegh, K., … Ham, S. (2013). Evaluation of Ultrasonic Techniques on Concrete Structures. Report: ORNL/TM-2013/430. Oak Ridge, TN: Oak Ridge National Laboratory. 
 
