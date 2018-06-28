@@ -5,7 +5,8 @@ behind releasing the code is to promote discussion and open exploration of the
 SAFT method for concrete non-destructive inspection. 
 
 If you use/build off of this code for publication please cite the following article: 
-Bittner, James A, Agustin Spalvier, and John S Popovics. 2018. “Internal Imaging of Concrete Elements.” Concrete International, no. April: 57–63.
+
+Bittner, James A, Agustin Spalvier, and John S Popovics. 2018. “Internal Imaging of Concrete Elements.” Concrete International, no. April: 57–63. URL: [Link to Article](https://www.concrete.org/publications/internationalconcreteabstractsportal/m/details/id/51702290)
  
 Files: 
 
